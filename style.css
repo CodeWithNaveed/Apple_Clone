@@ -1,0 +1,331 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+
+/* body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    
+} */
+
+
+/* -----------------------------------nav bar--------------------------------------- */
+
+nav {
+    position: fixed !important;
+    width: 100%;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    margin: 15px;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: inline-block;
+    color: rgba(225, 225, 225, 0.8);
+    font-size: 13px;
+    font-weight: 200;
+    padding: 5px;
+}
+
+li:hover {
+    background-color: rgba(201, 201, 201, 0.452);
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+/* -----------------------------------oneSection----------------------------------- */
+
+/* div {
+    text-align: center;
+}
+
+.one{
+    position: absolute;
+    z-index: -1;
+}
+
+.hero{
+    position: sticky;
+    margin-top: 50%;
+    margin-left: 43%;
+} */
+
+#oneSection {
+    background-image: url("./2nd.jpg");
+    background-size: 61% !important;
+    height: 78vh !important;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f5f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 27px !important;
+    font-size: 21px;
+}
+
+/* #oneSection>div>p.subhead {
+    font-size: 500%;
+    font-weight: 500;
+} */
+
+.a {
+    
+    text-transform: capitalize;
+    color: #2997ff;
+    margin: 5px 20px;
+    font-weight: 600;
+    font-size: 19px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.a:hover {
+    text-decoration: underline;
+}
+
+/* -----------------------------------twoSection----------------------------------- */
+
+#twoSection {
+    background-image: url("./3rd.jpg");
+    height: 96vh !important;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 100px !important;
+    margin-top: 20px;
+    color: white;
+}
+
+.headline {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.subhead {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* -----------------------------------threeSection----------------------------------- */
+
+#threeSection {
+    background-image: url("./4rd.jpg");
+    height: 102vh !important;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 100px !important;
+    color: black;
+}
+
+/* ----------------------------------fourSection----------------------------------- */
+
+#fourSection {
+    height: 63vh !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#fourA {
+    background-image: url("./promo_apple-watch1.jpg");
+    height: 62vh !important;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    color: white;
+    display: inline-block;
+    margin: 0px 7px 0px 13px;
+}
+
+#fourB {
+    background-image: url("./promo_apple-watch.jpg");
+    height: 62vh !important;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    color: white;
+    display: inline-block;
+    margin: 0px 13px 0px 7px;
+}
+
+.watch {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.watch1 {
+    text-transform: capitalize;
+    color: #2997ff;
+    margin: 5px 20px;
+    font-weight: 400;
+    font-size: 17px;
+    display: inline-block;
+}
+
+p {
+    margin-top: 0 !important;
+    margin-bottom: 0rem !important;
+}
+
+.watch1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.fontalign {
+    position: relative;
+    margin-top: -54px
+}
+
+/* ----------------------------------fifthSection----------------------------------- */
+#fifthSection {
+    height:63vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 12px;
+}
+
+#fifthA {
+    background-image: url("./three watches.jpg");
+    height: 62vh !important;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    color: black;
+    display: inline-block;
+    margin: 0px 7px 0px 13px;
+}
+
+#fifthB {
+    background-image: url("./laptopes.jpg");
+    height: 62vh !important;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    color: black;
+    display: inline-block;
+    margin: 0px 13px 0px 7px;
+}
+
+
+/* ----------------------------------sixthSection----------------------------------- */
+
+#sixthSection {
+    height: 64vh !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 12px;
+}
+
+#sixthA {
+    background-image: url("./SIM card.jpg");
+    height: 62vh !important;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    color: black;
+    display: inline-block;
+    margin: 0px 7px 0px 13px;
+}
+
+#sixthB {
+    background-image: url("./mobiles.jpg");
+    height: 62vh !important;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    color: black;
+    display: inline-block;
+    margin: 0px 13px 0px 7px;
+}
+
+/* -----------------------------------animation------------------------------------ */
+
+.carousel-item {
+    /* padding: 0px !important; */
+    /* position: static; */
+    /* z-index: -1; */
+    /* margin: 0px 80px 0px 150px !important;
+    width: 80% !important;
+    height: 500px */
+}
+
+.d-block {
+    /* position: relative; */
+    /* margin: 0px 50px 0px 0px !important; */
+    /* display: flex !important; */
+    /* justify-content: center !important; */
+    /* width: 50px; */
+    /* height: 400px; */
+}
+
+.carousel-inner {
+    z-index: -1;
+    margin: 0px 80px 20px 150px !important;
+    width: 80% !important;
+    height: 500px
+}
+
+/* -----------------------------------Footer------------------------------------ */
+
+.footer1 {
+    background-color: rgb(241, 240, 240);
+    padding: 20px;
+}
+
+.footer2 {
+    margin: 0px 220px;
+}
+
+tr {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height: 30px;
+}
+
+td {
+    width: 232px;
+}
+
+td:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
